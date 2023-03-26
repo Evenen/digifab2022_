@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>DigiFab 2022 - Template</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/home.png" alt="" /></a>
+					<h1><strong>DigiFab 2022</strong><br />
+						Ismail S. Ahmed -<br />
+						prosjektside.</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>PCB
+								</h2>
+						</header>
+						<p>PCB-designet er en Real Time Clock (RTC) krets som bruker en NE555P-timer til å generere klokkesignalet. Dette klokkesignalet blir sendt til to CD4013BE-flip-flops som deler ned klokkesignalet før det sendes til en DS1307 RTC-brikke som gir en nøyaktig tidsavlesning.
+						</p>
+						<p> Koblinger:
+							NE555P-timeren genererer et klokkesignal ved hjelp av en 0,1 µF kondensator og to motstander på 10 kΩ og 100 kΩ. Dette klokkesignalet sendes deretter til de to CD4013BE-flip-flopsene som deler ned klokkesignalet. Den delte ned klokken sendes deretter til en DS1307 RTC-brikke som gir en nøyaktig tidsavlesning.</p>
+					   <p>
+						Valg av komponenter:
+						<ul>
+							<li>2 x C-US025-025X050 Capacitor</li>
+							<li>1 x PINHD-1X6CB Pin Header</li>
+							<li>2 x R-US_0204/5 Resistor</li>
+							<li>2 x 1N4004 Diode</li>
+							<li>220 ohm motstand</li>
+							<li>1 x 4027N Dual JK Flip Flop</li>
+							<li>1 x 555P General Purpose Bipolar Timer</li>
+							
+							</li>
+						  </ul>
+					   </p>
+					</section>
+
+				<!-- Two -->
+				<section id="two">
+					<h2>Bilder</h2>
+					<div class="row">
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/Sche.png" class="image fit thumb"><img src="images/Sche.png" alt="" /></a>
+							
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/Board.png" class="image fit thumb"><img src="images/Board.png" alt="" /></a>
+							
+						</article>
+						
+				</section>
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
